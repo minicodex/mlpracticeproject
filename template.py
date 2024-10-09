@@ -19,11 +19,13 @@ list_of_files=[
     f"src/{project_name}/exception.py",
     f"src/{project_name}/logger.py",
     f"src/{project_name}/utils.py",
+    "main.py",
     "app.py",
     "Dockerfile",
     "requirements.txt"
     "setup.py"
 ]
+
 
 for filepath in list_of_files:
     filepath = Path(filepath)
@@ -40,4 +42,4 @@ for filepath in list_of_files:
 
 
     else:
-        logging.info(f"{filename}is already exists")
+        logging.info(f"{filename}is already exists") 
